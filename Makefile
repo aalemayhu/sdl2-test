@@ -1,2 +1,2 @@
 all:
-	clang main.c -lSDL2 -o sdl2test
+	gcc -Werror main.c -lSDL2 -lm -o sdl2test
